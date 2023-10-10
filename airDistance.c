@@ -11,5 +11,7 @@ int main(int argc, char const *argv[])
     printf("Origin:  \t (%f, %f)",latitude1,longitude1);
     printf("Enter the latitude of location B: ");
     scanf("%f",&latitude2);
+    printf("enter the longitude of location B: ");
+    scanf("%f",&longitude2);
     return 0;
 }
